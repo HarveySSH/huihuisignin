@@ -363,7 +363,7 @@ var Calendar = (function(){
 	};
 	
 	function showCounts(start,end){
-		$.getScript("main.js");
+		$.getScript("js/main.js");
 		var mycallback = {
 			signcounts: function(signArray){
 		   		for(var i = 0, l = signArray.length; i < l; i++){
